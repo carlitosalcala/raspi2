@@ -53,6 +53,6 @@
       }));
       
       //place at DOM
-      oTable1.placeAt('app.page2');  
+      //oTable1.placeAt('app.page1');  
 
 
