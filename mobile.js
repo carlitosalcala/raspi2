@@ -1,6 +1,6 @@
 // create a mobile App
 // it initializes the HTML page for mobile use and provides animated page handling
-   var app = new sap.m.App("myApp", {initialPage:"page1",backgroundColor:"#4B610B"}); // page1 should be displayed first
+   var app = new sap.m.App("myApp", {initialPage:"page1",backgroundColor:"#F0F8FF"}); // page1 should be displayed first
 // create a new tiles as var to add later to a page or something
  var tileprojects = new sap.m.TileContainer({
 			tiles: [
