@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mvc:View
+    controllerName="carlos.free.view.Second"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Page
+        showNavButton="true"
+        navButtonPress="handleNavButtonPress"
+        title="{i18n>SecondPageTitle}">
+        <ObjectHeader
+            title="{brewName}"
+            number="{ABV}%"
+            numberUnit="ABV">
+            <attributes>
+               <ObjectAttribute text="{brewType}" /> 
+               <ObjectAttribute text="{brewerName}" /> 
+            </attributes>
+        </ObjectHeader>
+    </Page>
+
+</mvc:View>
